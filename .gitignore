@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (large files — keep only sample/)
+data/*
+!data/sample/
+!data/.gitkeep
+
+# Model weights
+*.pt
+*.json
+!AOI.geojson
+!package.json
+
+# Geospatial intermediates
+*.tif
+*.tiff
+*.vrt
+*.gpkg
+*.shp
+*.dbf
+*.shx
+*.prj
+
+# Parquet (large datasets)
+*.parquet
+
+# HTML maps
+*.html
+
+# Logs
+*.log
+
+# Environment
+.env
