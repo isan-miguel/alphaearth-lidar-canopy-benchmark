@@ -18,6 +18,7 @@ GEE_PROJECT = os.environ.get("GEE_PROJECT", "your-gee-project-id")
 DATA_DIR = PROJECT_ROOT / "data"
 MODEL_DIR = DATA_DIR / "models"
 AOI_PATH = PROJECT_ROOT / "AOI.geojson"
+GLOBAL_SAMPLES_DIR = DATA_DIR / "global_samples"
 
 # ── Embedding constants ──
 EMBED_DIM = 64

@@ -110,8 +110,8 @@ All splits are by **transect** (entire ALS flight lines stay together) to preven
 
 ```bash
 # Clone and install
-git clone https://github.com/YOUR_USERNAME/canopy-height-comparison-tocantins.git
-cd canopy-height-comparison-tocantins
+git clone https://github.com/YOUR_USERNAME/alphaearth-lidar-canopy-benchmark.git
+cd alphaearth-lidar-canopy-benchmark
 pip install -r requirements.txt
 
 # Set your GEE project
@@ -143,7 +143,7 @@ python -m pytest tests/ -v
 ## Project Structure
 
 ```
-canopy-height-comparison-tocantins/
+alphaearth-lidar-canopy-benchmark/
 ├── README.md
 ├── LICENSE                          (MIT)
 ├── .gitignore

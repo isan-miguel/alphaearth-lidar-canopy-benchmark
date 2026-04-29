@@ -6,6 +6,9 @@ help:  ## Show this help
 download:  ## Download ALS CHM transects from Zenodo
 	python -m src.data_processing.download_chm
 
+download-global-lidar:  ## Download global spaceborne lidar samples (GEDI + ICESat-2)
+	python -m src.data_processing.download_global_lidar
+
 extract-embeddings:  ## Extract Google AlphaEarth embeddings paired with CHM labels
 	python -m src.data_processing.extract_embeddings
 
